@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Etch-a-Sketch</h1>
+    </header>
+    <main class="main">
+      <ul class="main__list">
+        <li class="main__item">
+          <button class="main__color-mode button">Black</button>
+        </li>
+        <li class="main__item">
+          <button class="main__rainbow-mode button">Rainbow mode</button>
+        </li>
+        <li class="main__item">
+          <button class="main__eraser button">Eraser</button>
+        </li>
+        <li class="main__item">
+          <button class="main__clear button">Clear</button>
+        </li>
+        <li class="main__item">
+          <div class="main__size">16 x 16</div>
+        </li>
+        <li class="main__item">
+          <input type="range" min="2" max="30" class="main__size-value" />
+        </li>
+      </ul>
+      <div class="div__grid"></div>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
